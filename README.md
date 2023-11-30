@@ -1,54 +1,55 @@
-# Mission-Ready-Task-2
+# Mission-Ready-Project-3
 
-# Becoming More Agile
-As part of Mission Ready's Github Education offering, you get Free Microsoft Azure credits.  Please make sure you use the free credits for the Missions.  We cannot reimburse expenses you incur on Azure.
-
-Task 1. Prototype to Showcase AI Solution
-Build an application to find Similar Cars
+# Progressing the Project
+In this Mission, you will take the API you created, and build a DevOps pipeline to deploy it automatically. 
 <br>
 
-The digital team at Turners would like to prototype a solution that allows a user to upload the picture of a car, and then find a similar car in their stock to recommend to customer. Build an application (either runs on your laptop or on the cloud) that can recognise motor vehicles (even better if it recognises certain types of vehicles, e.g. sedan vs hatchback) using a cloud-based AI service on Microsoft Azure. You can copy code from tutorials you find online, but make sure you read through the code so that you understand the code. 
+Task 4. Provide feedback to UX Designers on feasibility
 <br>
 
-The following resources may help:
-<li>REQUIRED Computer Vision service on Azure:  https://docs.microsoft.com/en-us/azure/cognitive-services/computer-vision/</li>
-<li>REQUIRED Custom Vision service on Azure: https://learn.microsoft.com/en-us/azure/cognitive-services/custom-vision-service/</li>
-<li>RECOMMENDED https://cloud.google.com/vision#section-8</li>
+UX Designers will ask you to provide some feedback about how feasible their designs are.  Each designer is required to get feedback from at least two developers. Your task is to understand the prototype functionalities along with the high-fidelity design, and let the UX designer know from a Developer's perspective, whether there are things that they can tweak to make coding significantly easier.  It is ok to let them know they do not need to make changes if nothing can be tweaked to make coding easier.
 <br>
 
-Task 2. Code Review
-Obtain feedback on your code from your team member by allowing them to review your code. Similarly, review your team member's code by pointing out the code smells and offering a solution. Perform this activity within GitHub by raising a pull request from your feature branch to main and inviting reviewers. The reviewers are supposed to add comments within GitHub at relevant lines of code.
+Task 5. Build a DevOps pipeline for your API 
 <br>
 
-<ol>
-<li>Push your code changes to a feature branch in your GitHub repository</li>
-<li>Create a pull request from your feature branch to the main branch.</li>
-<li>Invite the other team as reviewers for your pull request.</li>
-<li>Ask them to review your code and provide feedback.</li>
-<li>Review their code and provide feedback by adding comments within GitHub at relevant lines of code.</li>
-<li>Discuss the feedback with the other team and make any necessary changes to the code.</li>
-<li>Once the feedback has been addressed, merge the pull request into the main branch.</li>
-</ol>
+Build a pipeline that deploys your API from Mission 1 or 2 to a cloud automatically. You need to build the pipeline using Github Actions so that as soon as you “git push” a new version of the code to your Github repository, the new code will automatically get deployed to Microsoft Azure or Google Cloud, and your new version of API is available on the cloud. Also automate the running of unit tests as part of the pipeline. 
 <br>
 
-The following resources may help:
-<li>​​​​​​​​​​​​​​RECOMMENDED Code smells https://blog.codinghorror.com/code-smells/</li>
-<li>RECOMMENDED Pull request reviews in GitHub https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/about-pull-request-reviews</li>
+The following resources may help: 
+<li>REQUIRED DevOps Overview https://aws.amazon.com/devops/what-is-devops/ (20 mins)</li>
+<li>REQUIRED Intro to Github Actions https://www.youtube.com/watch?v=Pwq7L9C9YyE (11 mins)</li>
+<li>RECOMMENDED Deploy node.js app via Github Actions to Azure https://learn.microsoft.com/en-us/azure/app-service/deploy-github-actions?tabs=applevel (12 mins)</li>
+<li>RECOMMENDED Deploy node.js app via Github Actions to GCP https://www.youtube.com/watch?v=DMCi7WWTtX0 (10 mins)</li>
 <br>
 
-Task 3. Present at Show and Tell
-At the Show and Tell, you will present the tasks you completed.  This presentation should be designed to take around 3 minutes per person. The time limit will be strictly enforced. You are encouraged to demonstrate the live application.
+Task 6. Learn about static code analysis 
 <br>
 
-Task 4. Submit your work
-By the end of Thursday, upload all of your work (screenshots, presentation slides, documents or other files) using the mission submission form.​​​​​​​​​​​​​​
+Learn about static code analysis by going through the following resources. 
 <br>
 
+The following resources may help: 
+<li>REQUIRED What is static code analysis https://youtu.be/Q2aL1cIQcdQ (6 mins)</li>
+<li>RECOMMENDED Demo of a static code analysis tool - Synk.io https://www.youtube.com/watch?v=9RHM4ybvyT8 (20 mins) </li>
+<br>
+   
+Task 7. Present at Show and Tell 
+<br>
 
-### Built With
-<li>Javascript</li>
-<li>Postman API</li>
-<li>Azure Custom Vision</li>
+At the Show and Tell next week, your team will jointly present the tasks it has completed.  This presentation should be designed to take around 5 minutes for each team member – so, if you are in a 4-people team you have up 20 minutes in total.  The time limit will be strictly enforced.  You can use PowerPoint slides, Sway or Prezi to help with your presentation.  You are encouraged to demonstrate the live DevOps pipeline. 
+<br>
+
+Task 8. Submit your work 
+<br>
+
+By the end of Thursday, upload all of your work (screenshots, presentation slides, documents or other files) using the mission submission form. 
+<br>
+
+### Built Using
+<li>React</li>
+<li>Github Actions</li>
+<li>Azure Cloud</li>
 <br>
 
 
@@ -78,6 +79,6 @@ To get started, follow these steps:
 ## Contact
 Daryl Brian Bonilla - darylb@missionreadyhq.com
 
-Project Link: https://github.com/Mission-Ready-Group-2/Daryl---Mission-Ready-Task-2.git
+Project Link: https://github.com/db1340/Mission-Ready-Project-3.git
 
 
